@@ -3,46 +3,62 @@
 <head>
 <meta charset="utf-8">
 <title>Hundekennel</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div class="container">
   	<div class="header">
       	<div class="row">
-          	<div class="col-md-4">
+          	<div class="col-md-4 col-xs-4">
                 <img class="gif" src="images\animation.gif">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
               	<h1>Kennel Overgaard´s</h1>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
                 <img class="logo" src="images\logo.jpg">
              </div>
         </div>     
-  	</div>
+  	</div>   
+  
+   <nav class="navbar navbar-default">
+        <div class="container-fluid">        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-
+                expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
 
-  	<nav class="navbar">
-      <div class="menu">
-        <div class="row">
-          <div class="col-md-12">
-             <ul>
-                <li><a href="#">Forside</a><span class="streg">|</span></li>
-                <li><a href="#">Tæver</a><span class="streg">|</span></li>
-                <li><a href="#">Hanner</a><span class="streg">|</span></li>
-                <li><a href="#">Parringer</a><span class="streg">|</span></li>
-                <li><a href="#">Til salg</a><span class="streg">|</span></li>
-                <li><a href="#">Links</a><span class="streg">|</span></li>
-                <li><a href="#">Kontakt</a></li>
-              </ul>
-           </div>
-        </div>      
-      </div>
-    </nav>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                      <div class="row">
+                          <div class="col-md-12 col-xs-6">
+                              <li class="active"><a href="#">Forside<span class="sr-only">(current)</span></a></li>
+                              <li><a href="#">Tæver</a></li>
+                              <li><a href="#">Hanner</a></li>
+                              <li><a href="#">Parringer</a></li>
+                              <li><a href="#">Til salg</a></li>
+                              <li><a href="#">Links</a></li>
+                              <li><a href="#">Kontakt</a></li>
+                          </div>
+                      </div>      
+                  </ul>
+              </div>   
+        </div>       
+  </nav>  
 
-    <div class="Article">
+    <div class="article">
       <div class="row">
       <!--Denne class gør ar det både vises som desktop og mobil visning-->
           <div class="col-md-12 col-xs-12">
@@ -60,19 +76,19 @@
 
     <div class="footer">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-xs-8">
                 <h4>Torben overgaard tlf. 51 51 22 26</h4>
               </div>
-              <div class="col-md-1">
+              <div class="col-md-1 col-xs-1">
                 <img class="pote" src="images\pote.png">
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-xs-1">
                 <img class="pote" src="images\pote.png">
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-xs-1">
                 <img class="pote" src="images\pote.png">
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1 col-xs-1">
                 <img class="pote" src="images\pote.png">
             </div>
         </div>

@@ -1,0 +1,127 @@
+/* eksempel på variable */
+$bgcolor: #f9f0bb;
+$white: #ffffff;
+$brown: #695925;
+
+$font: sans-serif;
+$fw: bold; 
+
+.container {
+	background-color: $bgcolor;
+	width: 60%;
+	background-image: url("images/page.png");
+	background-position-x: 50%;
+    background-position-y: 0%;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+}
+.header {
+	
+	.gif {
+		width: 100%;
+		margin-top: 10px;
+
+	}
+	h1 {
+		text-align: center;
+		font-weight: normal;
+		margin-top: 36px;
+		font-family: Georgia, 'Times New Roman', Times, Serif;
+		margin-left: 30px;
+		padding-top: 10px;
+	}
+	.logo {
+		width: 30%;
+		float: right;
+		margin-top: 10px;
+		margin-right: 30px;
+	}
+}
+/* Green */
+$bgDefault      : #2ecc71;
+$bgHighlight    : #27ae60;
+$colDefault     : #ecf0f1;
+$colHover       : #d1ffed;
+
+
+/* --- Style --- */
+.navbar-default {
+    background-color: $bgDefault;
+    border-color: $bgHighlight;
+    .navbar-brand {
+        color: $colDefault;
+        &:hover, &:focus {
+            color: $colHover; }}
+    .navbar-nav {
+        > li {
+            > a {
+                color: $colDefault;
+                &:hover, &:focus {
+                    color: $colHover;   }}}
+        .active {
+            > a, > a:hover, > a:focus {
+                color: $colHover;
+                background-color: $bgHighlight; }}
+        .open {
+            > a, > a:hover, > a:focus {
+                color: $colHover;
+                background-color: $bgHighlight;
+                .caret {
+                    border-top-color: $colHover;
+                    border-bottom-color: $colHover; }}}
+        > .dropdown {
+            > a {
+                .caret {
+                    border-top-color: $colDefault;
+                    border-bottom-color: $colDefault; }
+                &:hover, &:focus {
+                    .caret {
+                        border-top-color: $colHover;
+                        border-bottom-color: $colHover; }}}}}
+    .navbar-toggle {
+        border-color: $bgHighlight;
+        &:hover, &:focus {
+            background-color: $bgHighlight; }
+        .icon-bar {
+            background-color: $colDefault; }}}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: $colDefault;
+        &:hover, &:focus {
+            color: $colHover;
+            background-color: $bgHighlight; }}
+}
+
+/* Do not take in account */
+html{padding-top:30px}a.solink{position:fixed;top:0;width:100%;text-align:center;background:#f3f5f6;color:#cfd6d9;border:1px solid #cfd6d9;line-height:30px;text-decoration:none;transition:all .3s;z-index:999}a.solink::first-letter{text-transform:capitalize}a.solink:hover{color:#428bca}
+.article {
+	
+	p{
+		font-family: $font;
+		font-size: 30px;
+		margin-left: 60px;
+		margin-right: 60px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+}
+.footer {
+	background-color: $brown;
+	color: $white;
+	margin-left: -15px;
+	margin-right: -15px;
+	
+	h4 {
+		margin-left: 70px;
+		padding-top: 5px;
+	}
+	.pote {
+		width: 60%;
+		float: right;
+		margin-right: 30px;
+	}
+}
