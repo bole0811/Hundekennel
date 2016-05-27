@@ -42,16 +42,15 @@ $fw: bold;
 	}
 }
 /* Green */
-$bgDefault      : #2ecc71;
-$bgHighlight    : #27ae60;
-$colDefault     : #ecf0f1;
-$colHover       : #d1ffed;
+$bgHighlight    : #DEB887;
+$colDefault     : #ffffff;
+$colHover       : #8B7355;
 
 
 /* --- Style --- */
 .navbar-default {
-    background-color: $bgDefault;
-    border-color: $bgHighlight;
+    background-color: $brown;
+    border-color: $brown;
     .navbar-brand {
         color: $colDefault;
         &:hover, &:focus {
@@ -59,6 +58,8 @@ $colHover       : #d1ffed;
     .navbar-nav {
         > li {
             > a {
+                margin-left: 20px;
+                margin-right: 20px;
                 color: $colDefault;
                 &:hover, &:focus {
                     color: $colHover;   }}}
