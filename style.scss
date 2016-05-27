@@ -51,6 +51,9 @@ $colHover       : #8B7355;
 .navbar-default {
     background-color: $brown;
     border-color: $brown;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
     .navbar-brand {
         color: $colDefault;
         &:hover, &:focus {

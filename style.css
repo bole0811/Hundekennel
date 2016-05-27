@@ -33,7 +33,10 @@
 /* --- Style --- */
 .navbar-default {
   background-color: #695925;
-  border-color: #695925; }
+  border-color: #695925;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 0; }
   .navbar-default .navbar-brand {
     color: #ffffff; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
