@@ -28,7 +28,20 @@
   float: right;
   margin-top: 10px;
   margin-right: 30px; }
-
+.header #float {
+  position: relative;
+  -webkit-animation: animationNavn 2s 1  normal ease-out;
+  animation: animationNavn 2s 1  normal ease-out; }
+@-webkit-keyframes animationNavn {
+  0% {
+    top: 500px; }
+  100% {
+    top: 0px; } }
+@keyframes animationNavn {
+  0% {
+    top: 500px; }
+  100% {
+    top: 0px; } }
 /* Green */
 /* --- Style --- */
 .navbar-default {
